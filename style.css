@@ -1,0 +1,58 @@
+.conteiner-general {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.div {
+    height: 220px;
+    margin: 5px;
+    background-color: blue;
+}
+
+.div1 {
+    height: 220px;
+    margin: 5px;
+    background-color: gold;
+}
+
+.div2 {
+    height: 220px;
+    margin: 5px;
+    background-color: red;
+}
+
+.div3 {
+    height: 220px;
+    margin: 5px;
+    background-color: violet;
+}
+
+.div4 {
+    height: 220px;
+    margin: 5px;
+    background-color: cyan;
+}
+
+.div5 {
+    height: 220px;
+    margin: 5px;
+    background-color: green;
+}
+
+.div6 {
+    height: 220px;
+    margin: 5px;
+    background-color: orangered;
+}
+
+.div7 {
+    height: 220px;
+    margin: 5px;
+    background-color: hotpink;
+}
+
+.div8 {
+    height: 220px;
+    margin: 5px;
+    background-color: darkblue;
+}
