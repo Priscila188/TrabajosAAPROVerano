@@ -1,38 +1,9 @@
-.Texto-Rosa {
-    color: rosybrown;
-}
-
-.Texto-Azul {
-    color: steelblue;
-}
-
-.Contenedor-Pink {
-    background-color: rosybrown;
-    width: 100%;
-    left: 0em;
-    padding: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-}
-
-.Contenedor-Footer {
-    list-style: none;
-}
-
-.Item {
-    color: aliceblue;
-    text-decoration: none;
-    margin-right: 2em;
-}
-
 .border {
     border-left: 30px solid mistyrose;
     border-top: 30px solid mistyrose;
-    border-right: 50px solid mistyrose;
+    border-right: 10px solid mistyrose;
     border-bottom: 30px solid mistyrose;
     background-color: mistyrose;
-    margin-right: 34cm;
+    margin-right: 25cm;
 }
 

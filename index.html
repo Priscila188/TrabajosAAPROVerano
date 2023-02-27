@@ -3,21 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./Estilos/style.css">
+    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css">
 <body>
-    <div class="conteiner-general">
-        <div class="div"></div>
-        <div class="div1"></div>
-        <div class="div2"></div>
-        <div class="div3"></div>
-        <div class="div4"></div>
-        <div class="div5"></div>
-        <div class="div6"></div>
-        <div class="div7"></div>
-        <div class="div8"></div>
-    </div>
+    <header style="background-color: rosybrown;">
+        <p>Inicio/Contacto</p>
+    </header>
+    <main>
+        <section>
+            <form class="border">
+                <div class="col-12">
+                    <label for="" class="form-label">Usuario</label>
+                    <input type="text" class="form-control" placeholder="Tu nombre" name="usu">
+                </div>
+                <br>
+                <div class="row g-3">
+                    <div class="col">
+                        <label for="" class="form-label">Email</label>
+                        <input type="email" class="form-control" placeholder="Tu email" name="ema">
+                    </div>
+                    <div class="col">
+                        <label for="" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" placeholder="Tu contraseña" aria-label="contra">
+                    </div>
+                </div>
+                <br>
+                <div class="col-12">
+                    <label for="" class="form-label">Telefono</label>
+                    <input type="tel" class="form-control" placeholder="Tu número" name="tel">
+                </div>
+                <br>
+                <div class="row g-3">
+                    <div class="col">
+                        <label for="" class="form-label">Ciudad</label>
+                        <input type="text" class="form-control" placeholder="Tu Ciudad" name="ciudad">
+                    </div>
+                    <div class="col">
+                        <label for="" class="form-label">Código Postal</label>
+                        <input type="text" class="form-control" placeholder="Código Potal" name="cod.postal"><br>
+                    </div>
+                </div>
+                
+                <br>
+                <div>
+                    <label for="">Mensaje(Opcional)</label><br>
+                    <textarea cols="30" rows="10" class="form-control" placeholder="(Texto)" name="opi"></textarea>
+                </div>
+                <br>
+                <button type="button" class="btn btn-primary">Enviar</button>
+
+               
+            </form>
+    </main>
+    <script src="./Bootstrap/js/bootstrap.min.js"> </script>
 </body>
 </html>
