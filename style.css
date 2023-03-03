@@ -3,6 +3,22 @@
     grid-template-columns: 1fr 1fr 1fr; 
 }
 
+@media (max-width: 320px) {
+    .conteiner-general {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+    .conteiner-general {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-end: 3;
+        grid-row-start: 1;
+    }
+}
+
 .div {
     height: 220px;
     margin: 5px;
@@ -56,3 +72,4 @@
     margin: 5px;
     background-color: darkblue;
 }
+
